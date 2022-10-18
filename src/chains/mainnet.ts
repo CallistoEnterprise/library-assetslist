@@ -283,4 +283,14 @@ export const MAINNET_NFTS: AssetNFT[] = [
     category: AssetType.ERC721,
     isVerified: true,
   },
+  {
+    name: 'BlogPetz',
+    collectionName: 'BlogPetz',
+    symbol: 'BPC',
+    address: '0x4B0d959e551E55aF9c89CE96C0c7755c189aD622',
+    decimals: 0,
+    image: '',
+    category: AssetType.ERC721,
+    isVerified: true,
+  },
 ]
