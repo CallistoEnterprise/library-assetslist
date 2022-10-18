@@ -24,7 +24,7 @@ export interface Asset {
   category: AssetType
   name: string
   symbol: string
-  image: string
+  image: string // for the NFT it could be a fallback image
   isVerified: boolean
   decimals: number
 }
@@ -37,12 +37,12 @@ export interface AssetNFT extends Asset {
   placeholderName?: string // usually when it is undefined, it is filled by Asset.name
   placeholderId?: string // it can be filled by the contract tokenId() during the parsing
   placeholderTitle?: string // it can be filled by collectionName during the parsing
-  placeholderDescription: string
-  placeholderMedia: string
+  placeholderDescription?: string 
+  placeholderMedia?: string // it cann be filled by specific standard, for example for ERC721 is used tokenURI()
 }
 ```
 
-> The placeholder fields are used for the UI, since we want to show different data accross different collections
+> The placeholder fields are used for the UI, especially for CallistoNFT standard, since we want to show different data accross different collections
 > We decided to choose placeholder approach when the same UI placeholder can point to different NFT metadata
 > as you can see at the image below
 

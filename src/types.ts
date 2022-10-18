@@ -29,6 +29,6 @@ export interface AssetNFT extends Asset {
   placeholderName?: string
   placeholderId?: string
   placeholderTitle?: string
-  placeholderDescription: string
-  placeholderMedia: string
+  placeholderDescription?: string
+  placeholderMedia?: string
 }
