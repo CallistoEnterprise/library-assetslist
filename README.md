@@ -46,7 +46,7 @@ export interface AssetNFT extends Asset {
 > We decided to choose placeholder approach when the same UI placeholder can point to different NFT metadata
 > as you can see at the image below
 
-![NFT placeholder](https://assets.callisto.network/images/nft_placeholder.png)
+![NFT placeholder](https://asset.callisto.network/images/nft_placeholder.png)
 
 ## Commands
 
@@ -68,3 +68,5 @@ To run tests, use `npm test` or `yarn test`.
 
 TSDX uses [Rollup](https://rollupjs.org) as a bundler and generates multiple rollup configs for various module formats and build settings. See [Optimizations](#optimizations) for details.
 
+### Contribution
+If you would like to add new Token or NFT collection, or fix some image assets feel free to create a new PR.
