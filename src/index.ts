@@ -1,6 +1,6 @@
 import { MAINNET_NFTS, MAINNET_TOKENS } from './chains/mainnet'
 import { TESTNET_NFTS, TESTNET_TOKENS } from './chains/testnet'
-import { Asset, AssetNFT, ChainId } from './types'
+import { Asset, AssetNFT, AssetType, ChainId } from './types'
 
 const TOKENLIST = {
   [ChainId.Mainnet]: MAINNET_TOKENS,
@@ -12,4 +12,4 @@ const NFTLIST = {
   [ChainId.Testnet]: TESTNET_NFTS,
 }
 
-export { TOKENLIST, NFTLIST, Asset, AssetNFT }
+export { TOKENLIST, NFTLIST, Asset, AssetNFT, AssetType }
