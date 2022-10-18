@@ -13,7 +13,7 @@ This package contains multi chain asset lists with Tokens and NFTs
 import { CALLISTO_CHAIN_ID } from '@callisto-enterprise/chain-constants'
 import { TOKENLIST, NFTLIST } from '@callisto-enterprice/assetslist'
 
-const mainnetTokens = TOKENLIST[CALLISTO_CHAIN_ID.Mainnet]
+const mainnetTokens = TOKENLIST[CALLISTO_CHAIN_ID.Mainnet] //or just 820
 const mainnetNFTs = NFTLIST[CALLISTO_CHAIN_ID.Mainnet]
 ```
 
@@ -46,7 +46,7 @@ export interface AssetNFT extends Asset {
 > We decided to choose placeholder approach when the same UI placeholder can point to different NFT metadata
 > as you can see at the image below
 
-![NFT placeholder](nft_placeholder.png)
+![NFT placeholder](https://assets.callisto.network/images/nft_placeholder.png)
 
 ## Commands
 
