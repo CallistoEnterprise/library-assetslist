@@ -46,7 +46,7 @@ export interface AssetNFT extends Asset {
 > We decided to choose placeholder approach when the same UI placeholder can point to different NFT metadata
 > as you can see at the image below
 
-![NFT placeholder](https://assets.callisto.network/images/nft_placeholder.png)
+![NFT placeholder](https://asset.callisto.network/images/nft_placeholder.png)
 
 ## Commands
 
