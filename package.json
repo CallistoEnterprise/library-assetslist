@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -33,14 +33,14 @@
   },
   "name": "@callisto-enterprise/assetslist",
   "author": "Klein Petr",
-  "module": "dist/library-assetslist.esm.js",
+  "module": "dist/assetslist.esm.js",
   "size-limit": [
     {
-      "path": "dist/library-assetslist.cjs.production.min.js",
+      "path": "dist/assetslist.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/library-assetslist.esm.js",
+      "path": "dist/assetslist.esm.js",
       "limit": "10 KB"
     }
   ],
@@ -53,6 +53,6 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@callisto-enterprise/chain-constants": "^1.0.1"
+    
   }
 }
