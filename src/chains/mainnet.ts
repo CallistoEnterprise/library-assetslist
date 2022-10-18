@@ -9,7 +9,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0x1eAa43544dAa399b87EEcFcC6Fa579D5ea4A6187.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Bulls USD',
@@ -18,7 +18,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xbf6c50889d3a620eb42C0F188b65aDe90De958c4.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped BNB (ERC20)',
@@ -27,7 +27,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCC78D0A86B0c0a3b32DEBd773Ec815130F9527CF.png',
     category: AssetType.ERC20,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped ETH (ERC20)',
@@ -36,7 +36,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xcC00860947035a26Ffe24EcB1301ffAd3a89f910.png',
     category: AssetType.ERC20,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped ETC',
@@ -45,7 +45,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCCc766f97629a4E14b3af8C91EC54f0b5664A69F.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Soy-ERC223',
@@ -63,7 +63,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xcCDe29903E621Ca12DF33BB0aD9D1ADD7261Ace9.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped ETH(ERC223)',
@@ -72,7 +72,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xcC208c32Cc6919af5d8026dAB7A3eC7A57CD1796.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped CAKE',
@@ -81,7 +81,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCC2D45F7fE1b8864a13F5D552345eB3f5a005FEd.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped TWT',
@@ -90,7 +90,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCC099e75152ACCda96d54FAbaf6e333ca44AD86e.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped WSG',
@@ -99,7 +99,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xccEbb9f0EE6D720DebccEE42f52915037f774A70.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped REEF',
@@ -108,7 +108,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCc1530716A7eBecFdc7572eDCbF01766f042155c.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped BAKE',
@@ -117,7 +117,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCCeC9F26F52E8e0D1d88365004f4F475f5274279.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped SHIB',
@@ -126,7 +126,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xccA4F2ED7Fc093461c13f7F5d79870625329549A.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped RACA',
@@ -135,7 +135,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCC8B04c0f7d0797B3BD6b7BE8E0061ac0c3c0A9b.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped LINA',
@@ -144,7 +144,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCC10A4050917f771210407DF7A4C048e8934332c.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped TON',
@@ -153,7 +153,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 9,
     image: 'https://asset.callisto.network/images/coins/0xCC50D400042177B9DAb6bd31ede73aE8e1ED6F08.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped XMS',
@@ -162,7 +162,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xcc45afedd2065EDcA770801055d1E376473a871B.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped FTM',
@@ -171,7 +171,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xcc50aB63766660C6C1157B8d6A5D51ceA82Dff34.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped BTT',
@@ -180,7 +180,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCc99C6635Fae4DAcF967a3fc2913ab9fa2b349C3.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped BBT',
@@ -189,7 +189,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 8,
     image: 'https://asset.callisto.network/images/coins/0xcCCaC2f22752bbe77D4DAb4e9421F2AC6c988427.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped ANTEX',
@@ -198,7 +198,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 8,
     image: 'https://asset.callisto.network/images/coins/0xCCd792f5D06b73685a1b54A32fE786346cAd1894.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped ZOO',
@@ -207,7 +207,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xCC9aFcE1e164fC2b381A3a104909e2D9E52cfB5D.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'Wrapped BCOIN',
@@ -216,7 +216,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/0xcC6e7E97A46B6F0eD3bC81518Fc816da78F7cb65.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
   {
     name: 'VIPSVERSE Token',
@@ -225,7 +225,7 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0x9f9b6DD3DEDB4D2e6C679bCb8782f546400e9A53.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    isVerified: true,
   },
 ]
 
