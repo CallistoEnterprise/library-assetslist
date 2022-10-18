@@ -243,7 +243,7 @@ export const MAINNET_NFTS: AssetNFT[] = [
     placeholderName: 'metadata/name',
     placeholderTitle: 'metadata/edition',
     placeholderDescription: 'metadata/description',
-    placeholderMedia: 'metadata/image_ipfs',
+    placeholderMedia: 'metadata/image_preview',
   },
   {
     name: 'Artefin',
@@ -257,7 +257,7 @@ export const MAINNET_NFTS: AssetNFT[] = [
     placeholderName: 'metadata/name',
     placeholderTitle: 'metadata/edition',
     placeholderDescription: 'metadata/description',
-    placeholderMedia: 'metadata/image_ipfs',
+    placeholderMedia: 'metadata/image_preview',
   },
   {
     name: 'Callisto Charity',
@@ -271,7 +271,7 @@ export const MAINNET_NFTS: AssetNFT[] = [
     placeholderName: 'metadata/name',
     placeholderTitle: 'metadata/edition',
     placeholderDescription: 'metadata/description',
-    placeholderMedia: 'metadata/image_ipfs',
+    placeholderMedia: 'metadata/image_preview',
   },
   {
     name: 'CAR',

@@ -63,6 +63,6 @@ export const TESTNET_NFTS: AssetNFT[] = [
     placeholderName: 'metadata/0/name',
     placeholderTitle: 'metadata/0/edition',
     placeholderDescription: 'metadata/0/description',
-    placeholderMedia: 'metadata/0/image_ipfs',
+    placeholderMedia: 'metadata/0/image_preview',
   },
 ]
