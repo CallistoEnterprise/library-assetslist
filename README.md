@@ -1,4 +1,4 @@
-# Callisto chain providers library
+# Callisto assets list library
 
 This package contains multi chain asset lists with Tokens and NFTs
 
