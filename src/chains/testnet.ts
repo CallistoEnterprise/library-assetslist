@@ -5,7 +5,7 @@ export const TESTNET_TOKENS: Asset[] = [
   {
     name: 'Callisto Network',
     symbol: 'TCLO',
-    address: '0x',
+    address: '0xbd2D3BCe975FD72E44A73cC8e834aD1B8441BdDa',
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/20729/0xbd2D3BCe975FD72E44A73cC8e834aD1B8441BdDa.png',
     category: AssetType.NATIVE,
