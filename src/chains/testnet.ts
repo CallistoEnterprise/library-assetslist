@@ -55,5 +55,6 @@ export const TESTNET_NFTS: AssetNFT[] = [
     placeholderTitle: 'metadata/0/edition',
     placeholderDescription: 'metadata/0/description',
     placeholderMedia: 'metadata/0/image_preview',
+    placeholderContent: 'metadata/nft_content',
   },
 ]
