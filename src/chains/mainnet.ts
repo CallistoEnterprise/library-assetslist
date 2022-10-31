@@ -3,6 +3,24 @@ import { AssetType } from '../types'
 
 export const MAINNET_TOKENS: Asset[] = [
   {
+    name: 'Callisto Network',
+    symbol: 'CLO',
+    address: '0x',
+    decimals: 18,
+    image: 'https://asset.callisto.network/images/coins/820/0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a.png',
+    category: AssetType.NATIVE,
+    isVerified: true,
+  },
+  // {
+  //   name: 'Callisto Network',
+  //   symbol: 'WCLO',
+  //   address: '0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a',
+  //   decimals: 18,
+  //   image: 'https://asset.callisto.network/images/coins/820/0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a.png',
+  //   category: AssetType.ERC223,
+  //   isVerified: true,
+  // },
+  {
     name: 'Callisto Enterprise',
     symbol: 'CLOE',
     address: '0x1eAa43544dAa399b87EEcFcC6Fa579D5ea4A6187',
