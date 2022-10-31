@@ -7,6 +7,7 @@ export enum ChainId {
 }
 
 export enum AssetType {
+  NATIVE = 0,
   ERC20 = 20,
   ERC223 = 223,
   ERC721 = 721,
