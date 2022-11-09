@@ -34,4 +34,4 @@ const getNFT = (address:string, chainId = AssetSupportedChainId.Mainnet) => {
   return NFTLIST[chainId].find((entry) => entry.address.toLowerCase() === address.toLowerCase())
 };
 
-export { TOKENLIST, NFTLIST, getToken, getNFT, Asset, AssetNFT, AssetType }
+export { TOKENLIST, NFTLIST, getToken, getNFT, Asset, AssetNFT, AssetType, AssetSupportedChainId }
