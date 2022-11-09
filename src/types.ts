@@ -6,6 +6,11 @@ export enum ChainId {
   ETC = 61,
 }
 
+export enum AssetSupportedChainId {
+  Mainnet = 820,
+  Testnet = 20729,
+}
+
 export enum AssetType {
   NATIVE = 0,
   ERC20 = 20,
