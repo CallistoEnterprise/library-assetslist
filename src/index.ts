@@ -7,7 +7,7 @@ const TOKENLIST: { [key in AssetSupportedChainId]: Asset[]} = {
   [ChainId.Testnet]: TESTNET_TOKENS,
 }
 
-const NFTLIST: { [key in AssetSupportedChainId]: Asset[]} = {
+const NFTLIST: { [key in AssetSupportedChainId]: AssetNFT[]} = {
   [ChainId.Mainnet]: MAINNET_NFTS,
   [ChainId.Testnet]: TESTNET_NFTS,
 }
