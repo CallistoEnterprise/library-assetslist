@@ -62,7 +62,9 @@ This builds to `/dist` and runs the project in watch mode so any edits you save 
 
 To do a one-off build, use `npm run build` or `yarn build`.
 
-To run tests, use `npm test` or `yarn test`.
+To run tests, use `npm test` or `yarn test`. If testing misbehaves, run `npx jest --clearCache`.
+
+_Note about DeprecationWarning [DEP0148]: tslib library, referenced by tsdx, has deprecated "./" key in package.json, see discussion in [github](https://github.com/microsoft/tslib/issues/134). No safe fix was identified, manual edit within node_modules can be a temporary solution._
 
 ### Rollup
 
