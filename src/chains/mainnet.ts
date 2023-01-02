@@ -5,21 +5,29 @@ export const MAINNET_TOKENS: Asset[] = [
   {
     name: 'Callisto Network',
     symbol: 'CLO',
-    address: '0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a',
+    address: '',
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a.png',
     category: AssetType.NATIVE,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://callisto.network/'
   },
-  // {
-  //   name: 'Callisto Network',
-  //   symbol: 'WCLO',
-  //   address: '0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a',
-  //   decimals: 18,
-  //   image: 'https://asset.callisto.network/images/coins/820/0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a.png',
-  //   category: AssetType.ERC223,
-  //   isVerified: true,
-  // },
+  {
+    name: 'Wrapped CLO',
+    symbol: 'WCLO',
+    address: '0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a',
+    decimals: 18,
+    image: 'https://asset.callisto.network/images/coins/820/0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a.png',
+    category: AssetType.ERC223,
+    audit: {
+      isAudited: true,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://callisto.network/'
+  },
   {
     name: 'Callisto Enterprise',
     symbol: 'CLOE',
@@ -27,7 +35,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0x1eAa43544dAa399b87EEcFcC6Fa579D5ea4A6187.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://callisto.network/'
   },
   {
     name: 'Bulls USD',
@@ -36,7 +48,13 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xbf6c50889d3a620eb42C0F188b65aDe90De958c4.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+      reportUrl: 'https://callisto.network/bulls-usd-busdt-security-audit/',
+      riskLevel: 'SAFE'
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped BNB (ERC20)',
@@ -45,7 +63,13 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCC78D0A86B0c0a3b32DEBd773Ec815130F9527CF.png',
     category: AssetType.ERC20,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+      reportUrl: 'https://callisto.network/binance-token-bnb-security-audit/',
+      riskLevel: 'LOW'
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped ETH (ERC20)',
@@ -54,7 +78,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xcC00860947035a26Ffe24EcB1301ffAd3a89f910.png',
     category: AssetType.ERC20,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped ETC',
@@ -63,7 +91,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCCc766f97629a4E14b3af8C91EC54f0b5664A69F.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Soy-ERC223',
@@ -72,7 +104,13 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0x9FaE2529863bD691B4A7171bDfCf33C7ebB10a65.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+      reportUrl: 'https://callisto.network/soy-finance-soy-security-audit/',
+      riskLevel: 'LOW'
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://soy.finance/'
   },
   {
     name: 'Wrapped BNB(ERC223)',
@@ -81,7 +119,13 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xcCDe29903E621Ca12DF33BB0aD9D1ADD7261Ace9.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+      reportUrl: 'https://callisto.network/binance-token-bnb-security-audit/',
+      riskLevel: 'LOW'
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped ETH(ERC223)',
@@ -90,7 +134,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xcC208c32Cc6919af5d8026dAB7A3eC7A57CD1796.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://ethereum.org'
   },
   {
     name: 'Wrapped CAKE',
@@ -99,7 +147,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCC2D45F7fE1b8864a13F5D552345eB3f5a005FEd.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped TWT',
@@ -108,7 +160,13 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCC099e75152ACCda96d54FAbaf6e333ca44AD86e.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+      reportUrl: 'https://callisto.network/trust-wallet-token-security-audit-report/',
+      riskLevel: 'LOW'
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped WSG',
@@ -117,7 +175,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xccEbb9f0EE6D720DebccEE42f52915037f774A70.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped REEF',
@@ -126,7 +188,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCc1530716A7eBecFdc7572eDCbF01766f042155c.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped BAKE',
@@ -135,7 +201,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCCeC9F26F52E8e0D1d88365004f4F475f5274279.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped SHIB',
@@ -144,7 +214,13 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xccA4F2ED7Fc093461c13f7F5d79870625329549A.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+      reportUrl: 'https://callisto.network/shiba-inu-token-security-audit-report/',
+      riskLevel: 'LOW'
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped RACA',
@@ -153,7 +229,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCC8B04c0f7d0797B3BD6b7BE8E0061ac0c3c0A9b.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped LINA',
@@ -162,7 +242,13 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCC10A4050917f771210407DF7A4C048e8934332c.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+      reportUrl: 'https://callisto.network/linear-token-security-audit-report/',
+      riskLevel: 'LOW'
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped TON',
@@ -171,7 +257,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 9,
     image: 'https://asset.callisto.network/images/coins/820/0xCC50D400042177B9DAb6bd31ede73aE8e1ED6F08.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped XMS',
@@ -180,7 +270,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xcc45afedd2065EDcA770801055d1E376473a871B.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped FTM',
@@ -189,7 +283,13 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xcc50aB63766660C6C1157B8d6A5D51ceA82Dff34.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+      reportUrl: 'https://callisto.network/fantom-token-security-audit-report/',
+      riskLevel: 'LOW'
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped BTT',
@@ -198,7 +298,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCc99C6635Fae4DAcF967a3fc2913ab9fa2b349C3.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped BBT',
@@ -207,7 +311,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 8,
     image: 'https://asset.callisto.network/images/coins/820/0xcCCaC2f22752bbe77D4DAb4e9421F2AC6c988427.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped ANTEX',
@@ -216,7 +324,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 8,
     image: 'https://asset.callisto.network/images/coins/820/0xCCd792f5D06b73685a1b54A32fE786346cAd1894.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped ZOO',
@@ -225,7 +337,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xCC9aFcE1e164fC2b381A3a104909e2D9E52cfB5D.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'Wrapped BCOIN',
@@ -234,7 +350,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0xcC6e7E97A46B6F0eD3bC81518Fc816da78F7cb65.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
   {
     name: 'VIPSVERSE Token',
@@ -243,7 +363,11 @@ export const MAINNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/820/0x9f9b6DD3DEDB4D2e6C679bCb8782f546400e9A53.png',
     category: AssetType.ERC223,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
 ]
 
@@ -256,7 +380,11 @@ export const MAINNET_NFTS: AssetNFT[] = [
     decimals: 0,
     image: '',
     category: AssetType.CALLISTONFT,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub'],
+    projectUrl: 'https://nft.muchaemotion.com/',
     placeholderId: 'properties/1',
     placeholderName: 'metadata/name',
     placeholderTitle: 'metadata/edition',
@@ -272,8 +400,13 @@ export const MAINNET_NFTS: AssetNFT[] = [
     decimals: 0,
     image: '',
     category: AssetType.CALLISTONFT,
-    isVerified: true,
-    placeholderName: 'metadata/name',
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub'],
+    projectUrl: 'https://nft.artefin.cz/',
+placeholderName
+  : 'metadata/name',
     placeholderTitle: 'metadata/edition',
     placeholderDescription: 'metadata/description',
     placeholderMedia: 'metadata/image_preview',
@@ -287,8 +420,13 @@ export const MAINNET_NFTS: AssetNFT[] = [
     decimals: 0,
     image: '',
     category: AssetType.CALLISTONFT,
-    isVerified: true,
-    placeholderName: 'metadata/name',
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub'],
+    projectUrl: 'https://app.soy.finance/nft',
+placeholderName
+  : 'metadata/name',
     placeholderTitle: 'metadata/edition',
     placeholderDescription: 'metadata/description',
     placeholderMedia: 'metadata/image_preview',
@@ -302,7 +440,11 @@ export const MAINNET_NFTS: AssetNFT[] = [
     decimals: 0,
     image: '',
     category: AssetType.ERC721,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://power-c.ar/'
   },
   {
     name: 'BlogPetz',
@@ -312,6 +454,10 @@ export const MAINNET_NFTS: AssetNFT[] = [
     decimals: 0,
     image: '',
     category: AssetType.ERC721,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: ''
   },
 ]

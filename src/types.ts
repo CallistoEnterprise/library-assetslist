@@ -26,8 +26,10 @@ export interface Asset {
   name: string
   symbol: string
   image: string
-  isVerified: boolean
+  audit: AssetAudit
   decimals: number
+  platforms: string[]
+  projectUrl: string
 }
 
 export interface AssetNFT extends Asset {
@@ -38,4 +40,11 @@ export interface AssetNFT extends Asset {
   placeholderDescription?: string
   placeholderMedia?: string
   placeholderContent?: string
+}
+
+
+export interface AssetAudit {
+  isAudited: boolean
+  reportUrl?: string
+  riskLevel?: string
 }
