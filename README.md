@@ -25,8 +25,14 @@ export interface Asset {
   name: string
   symbol: string
   image: string // for the NFT it could be a fallback image
-  isVerified: boolean
+  audit: {
+    isAudited: boolean
+    reportUrl?: string
+    riskLevel?: string
+  }
   decimals: number
+  platforms: string[]
+  projectUrl: string
 }
 ```
 
