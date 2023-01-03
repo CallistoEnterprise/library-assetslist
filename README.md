@@ -21,7 +21,7 @@ Here is the structure of the Asset interface
 ```ts
 export interface Asset {
   address: string
-  category: AssetType
+  category: AssetType //NATIVE, ERC20, ERC223, ERC721, ERC1155, CALLISTONFT
   name: string
   symbol: string
   image: string // for the NFT it could be a fallback image
