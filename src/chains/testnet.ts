@@ -9,7 +9,11 @@ export const TESTNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/20729/0xbd2D3BCe975FD72E44A73cC8e834aD1B8441BdDa.png',
     category: AssetType.NATIVE,
-    isVerified: true,
+    audit: {
+      isAudited: true,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://callisto.network/',
   },
   // {
   //   name: 'Wrapped Callisto Network',
@@ -27,7 +31,11 @@ export const TESTNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/20729/0x4c20231BCc5dB8D805DB9197C84c8BA8287CbA92.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://soy.finance/',
   },
   {
     name: 'Callisto Enterprise',
@@ -36,7 +44,11 @@ export const TESTNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/20729/0xF247c669E08837129965fF3cBcaC9E3695A9684B.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://callisto.network/',
   },
   {
     name: 'Bulls USD',
@@ -45,7 +57,11 @@ export const TESTNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/20729/0xAB99622d19298EC2BEAB50EFF91A9b6F46Af747C.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: '',
   },
   {
     name: 'Teramite token',
@@ -54,7 +70,12 @@ export const TESTNET_TOKENS: Asset[] = [
     decimals: 18,
     image: 'https://asset.callisto.network/images/coins/20729/0xB4dDe88Fd2D7Cf5AA0880fa2Ec893124Cbbe0FA3.png',
     category: AssetType.ERC223,
-    isVerified: false,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: '',
+  
   },
 ]
 
@@ -67,7 +88,11 @@ export const TESTNET_NFTS: AssetNFT[] = [
     decimals: 0,
     image: '',
     category: AssetType.CALLISTONFT,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://nft.artefin.cz/',
     placeholderId: 'properties/1',
     placeholderName: 'metadata/0/name',
     placeholderTitle: 'metadata/0/edition',
@@ -83,7 +108,11 @@ export const TESTNET_NFTS: AssetNFT[] = [
     decimals: 0,
     image: '',
     category: AssetType.CALLISTONFT,
-    isVerified: true,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub','soy','bridge'],
+    projectUrl: 'https://nft.muchaemotion.com/',
     placeholderId: 'properties/1',
     placeholderName: 'metadata/name',
     placeholderTitle: 'metadata/edition',
