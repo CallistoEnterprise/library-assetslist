@@ -6,6 +6,7 @@ import {
   BASE_IMAGE_EXTENSION,
 } from '../src/constants';
 import { jsonCollections } from './testData';
+import { AssetType } from '../src/types';
 
 describe.each(jsonCollections)(
   'JSON validation - %s',
@@ -32,6 +33,8 @@ describe.each(jsonCollections)(
       for (let item of assets) {
         expect(item.name.trim()).not.toBe('');
         expect(item.symbol.trim()).not.toBe('');
+        expect(item.audit).toBeDefined();
+        expect(item.audit.isAudited).toBeDefined();
 
         if (isNFT) expect(item.image.trim()).toBe('');
         else expect(item.image.trim()).not.toBe('');
@@ -40,6 +43,7 @@ describe.each(jsonCollections)(
 
     it('each does not contain invalid address', () => {
       for (let item of assets) {
+        if(item.category === AssetType.NATIVE) continue
         expect(Web3.utils.isAddress(item.address) && item.address).toBe(
           item.address
         );
@@ -49,6 +53,7 @@ describe.each(jsonCollections)(
     it('each image address has correct format', () => {
       if (!isNFT) {
         for (let item of assets) {
+          if(item.category === AssetType.NATIVE) continue
           expect(item.image).toBe(
             REMOTE_COINS_URL +
               '/' +
