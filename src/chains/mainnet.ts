@@ -5,14 +5,14 @@ export const MAINNET_TOKENS: Asset[] = [
   {
     name: 'Callisto Network',
     symbol: 'CLO',
-    address: '',
+    address: '0x0000000000000000000000000000000000000001',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a.png',
+    image: 'https://asset.callisto.network/images/coins/clo.png',
     category: AssetType.NATIVE,
     audit: {
       isAudited: true,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['soy','bridge'],
     projectUrl: 'https://callisto.network/'
   },
   {
@@ -20,7 +20,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'WCLO',
     address: '0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a.png',
+    image: 'https://asset.callisto.network/images/coins/clo.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: true,
@@ -33,7 +33,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'CLOE',
     address: '0x1eAa43544dAa399b87EEcFcC6Fa579D5ea4A6187',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0x1eAa43544dAa399b87EEcFcC6Fa579D5ea4A6187.png',
+    image: 'https://asset.callisto.network/images/coins/cloe.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: true,
@@ -46,7 +46,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'BUSDT',
     address: '0xbf6c50889d3a620eb42C0F188b65aDe90De958c4',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xbf6c50889d3a620eb42C0F188b65aDe90De958c4.png',
+    image: 'https://asset.callisto.network/images/coins/busdt.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: true,
@@ -61,7 +61,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccBNB',
     address: '0xCC78D0A86B0c0a3b32DEBd773Ec815130F9527CF',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCC78D0A86B0c0a3b32DEBd773Ec815130F9527CF.png',
+    image: 'https://asset.callisto.network/images/coins/bnb.png',
     category: AssetType.ERC20,
     audit: {
       isAudited: true,
@@ -76,7 +76,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccETH',
     address: '0xcC00860947035a26Ffe24EcB1301ffAd3a89f910',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xcC00860947035a26Ffe24EcB1301ffAd3a89f910.png',
+    image: 'https://asset.callisto.network/images/coins/eth.png',
     category: AssetType.ERC20,
     audit: {
       isAudited: false,
@@ -89,7 +89,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccETC',
     address: '0xCCc766f97629a4E14b3af8C91EC54f0b5664A69F',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCCc766f97629a4E14b3af8C91EC54f0b5664A69F.png',
+    image: 'https://asset.callisto.network/images/coins/etc.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -102,7 +102,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'SOY',
     address: '0x9FaE2529863bD691B4A7171bDfCf33C7ebB10a65',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0x9FaE2529863bD691B4A7171bDfCf33C7ebB10a65.png',
+    image: 'https://asset.callisto.network/images/coins/soy.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: true,
@@ -117,7 +117,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccBNB',
     address: '0xcCDe29903E621Ca12DF33BB0aD9D1ADD7261Ace9',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xcCDe29903E621Ca12DF33BB0aD9D1ADD7261Ace9.png',
+    image: 'https://asset.callisto.network/images/coins/bnb.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: true,
@@ -132,7 +132,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccETH',
     address: '0xcC208c32Cc6919af5d8026dAB7A3eC7A57CD1796',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xcC208c32Cc6919af5d8026dAB7A3eC7A57CD1796.png',
+    image: 'https://asset.callisto.network/images/coins/eth.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -145,7 +145,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccCAKE',
     address: '0xCC2D45F7fE1b8864a13F5D552345eB3f5a005FEd',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCC2D45F7fE1b8864a13F5D552345eB3f5a005FEd.png',
+    image: 'https://asset.callisto.network/images/coins/cake.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -158,7 +158,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccTWT',
     address: '0xCC099e75152ACCda96d54FAbaf6e333ca44AD86e',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCC099e75152ACCda96d54FAbaf6e333ca44AD86e.png',
+    image: 'https://asset.callisto.network/images/coins/twt.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: true,
@@ -173,7 +173,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccWSG',
     address: '0xccEbb9f0EE6D720DebccEE42f52915037f774A70',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xccEbb9f0EE6D720DebccEE42f52915037f774A70.png',
+    image: 'https://asset.callisto.network/images/coins/wsg.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -186,7 +186,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccREEF',
     address: '0xCc1530716A7eBecFdc7572eDCbF01766f042155c',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCc1530716A7eBecFdc7572eDCbF01766f042155c.png',
+    image: 'https://asset.callisto.network/images/coins/reef.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -199,7 +199,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccBAKE',
     address: '0xCCeC9F26F52E8e0D1d88365004f4F475f5274279',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCCeC9F26F52E8e0D1d88365004f4F475f5274279.png',
+    image: 'https://asset.callisto.network/images/coins/bake.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -212,7 +212,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccSHIB',
     address: '0xccA4F2ED7Fc093461c13f7F5d79870625329549A',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xccA4F2ED7Fc093461c13f7F5d79870625329549A.png',
+    image: 'https://asset.callisto.network/images/coins/shib.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: true,
@@ -227,7 +227,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccRACA',
     address: '0xCC8B04c0f7d0797B3BD6b7BE8E0061ac0c3c0A9b',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCC8B04c0f7d0797B3BD6b7BE8E0061ac0c3c0A9b.png',
+    image: 'https://asset.callisto.network/images/coins/raca.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -240,7 +240,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccLINA',
     address: '0xCC10A4050917f771210407DF7A4C048e8934332c',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCC10A4050917f771210407DF7A4C048e8934332c.png',
+    image: 'https://asset.callisto.network/images/coins/lina.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: true,
@@ -255,7 +255,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccTON',
     address: '0xCC50D400042177B9DAb6bd31ede73aE8e1ED6F08',
     decimals: 9,
-    image: 'https://asset.callisto.network/images/coins/820/0xCC50D400042177B9DAb6bd31ede73aE8e1ED6F08.png',
+    image: 'https://asset.callisto.network/images/coins/ton.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -268,7 +268,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccXMS',
     address: '0xcc45afedd2065EDcA770801055d1E376473a871B',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xcc45afedd2065EDcA770801055d1E376473a871B.png',
+    image: 'https://asset.callisto.network/images/coins/xms.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -281,7 +281,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccFTM',
     address: '0xcc50aB63766660C6C1157B8d6A5D51ceA82Dff34',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xcc50aB63766660C6C1157B8d6A5D51ceA82Dff34.png',
+    image: 'https://asset.callisto.network/images/coins/ftm.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: true,
@@ -296,7 +296,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccBTT',
     address: '0xCc99C6635Fae4DAcF967a3fc2913ab9fa2b349C3',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCc99C6635Fae4DAcF967a3fc2913ab9fa2b349C3.png',
+    image: 'https://asset.callisto.network/images/coins/btt.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -309,7 +309,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccBBT',
     address: '0xcCCaC2f22752bbe77D4DAb4e9421F2AC6c988427',
     decimals: 8,
-    image: 'https://asset.callisto.network/images/coins/820/0xcCCaC2f22752bbe77D4DAb4e9421F2AC6c988427.png',
+    image: 'https://asset.callisto.network/images/coins/bbt.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -322,7 +322,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccANTEX',
     address: '0xCCd792f5D06b73685a1b54A32fE786346cAd1894',
     decimals: 8,
-    image: 'https://asset.callisto.network/images/coins/820/0xCCd792f5D06b73685a1b54A32fE786346cAd1894.png',
+    image: 'https://asset.callisto.network/images/coins/antex.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -335,7 +335,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccZOO',
     address: '0xCC9aFcE1e164fC2b381A3a104909e2D9E52cfB5D',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xCC9aFcE1e164fC2b381A3a104909e2D9E52cfB5D.png',
+    image: 'https://asset.callisto.network/images/coins/820/zoo.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -348,7 +348,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccBCOIN',
     address: '0xcC6e7E97A46B6F0eD3bC81518Fc816da78F7cb65',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0xcC6e7E97A46B6F0eD3bC81518Fc816da78F7cb65.png',
+    image: 'https://asset.callisto.network/images/coins/bcoin.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
@@ -361,7 +361,7 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'VVT',
     address: '0x9f9b6DD3DEDB4D2e6C679bCb8782f546400e9A53',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/0x9f9b6DD3DEDB4D2e6C679bCb8782f546400e9A53.png',
+    image: 'https://asset.callisto.network/images/coins/vvt.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
