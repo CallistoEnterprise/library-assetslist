@@ -54,23 +54,19 @@ describe.each(jsonCollections)(
       if (!isNFT) {
         for (let item of assets) {
           if(item.category === AssetType.NATIVE) continue
-          try{
-          expect(item.image).toBe(
+          
+          expect([
             REMOTE_COINS_URL +
-              '/' +
-              chainId +
-              '/' +
-              item.address +
-              BASE_IMAGE_EXTENSION
-          );
-          } catch {
-            expect(item.image).toBe(
-              REMOTE_COINS_URL +
-                '/' +
-                item.symbol.toLowerCase() +
-                BASE_IMAGE_EXTENSION
-            );
-          }
+            '/' +
+            chainId +
+            '/' +
+            item.address +
+            BASE_IMAGE_EXTENSION,
+            REMOTE_COINS_URL +
+            '/' +
+            item.symbol.toLowerCase() +
+            BASE_IMAGE_EXTENSION
+          ]).toContain(item.image)
         }
       }
     });
