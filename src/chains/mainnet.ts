@@ -12,7 +12,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
     },
-    platforms: ['soy','bridge'],
+    platforms: ['hub','soy','bridge'],
     projectUrl: 'https://callisto.network/'
   },
   {
@@ -56,34 +56,34 @@ export const MAINNET_TOKENS: Asset[] = [
     platforms: ['hub','soy','bridge'],
     projectUrl: ''
   },
-  {
-    name: 'Wrapped BNB (ERC20)',
-    symbol: 'ccBNB',
-    address: '0xCC78D0A86B0c0a3b32DEBd773Ec815130F9527CF',
-    decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/bnb.png',
-    category: AssetType.ERC20,
-    audit: {
-      isAudited: true,
-      reportUrl: 'https://callisto.network/binance-token-bnb-security-audit/',
-      riskLevel: 'LOW'
-    },
-    platforms: ['hub','soy','bridge'],
-    projectUrl: ''
-  },
-  {
-    name: 'Wrapped ETH (ERC20)',
-    symbol: 'ccETH',
-    address: '0xcC00860947035a26Ffe24EcB1301ffAd3a89f910',
-    decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/eth.png',
-    category: AssetType.ERC20,
-    audit: {
-      isAudited: false,
-    },
-    platforms: ['hub','soy','bridge'],
-    projectUrl: ''
-  },
+//  {
+//    name: 'Wrapped BNB (ERC20)',
+//    symbol: 'ccBNB',
+//    address: '0xCC78D0A86B0c0a3b32DEBd773Ec815130F9527CF',
+//    decimals: 18,
+//    image: 'https://asset.callisto.network/images/coins/bnb.png',
+//    category: AssetType.ERC20,
+//    audit: {
+//      isAudited: true,
+//      reportUrl: 'https://callisto.network/binance-token-bnb-security-audit/',
+//      riskLevel: 'LOW'
+//    },
+//    platforms: ['hub','soy','bridge'],
+//    projectUrl: ''
+//  },
+//  {
+//    name: 'Wrapped ETH (ERC20)',
+//    symbol: 'ccETH',
+//    address: '0xcC00860947035a26Ffe24EcB1301ffAd3a89f910',
+//    decimals: 18,
+//    image: 'https://asset.callisto.network/images/coins/eth.png',
+//    category: AssetType.ERC20,
+//    audit: {
+//      isAudited: false,
+//   },
+//    platforms: ['hub','soy','bridge'],
+//    projectUrl: ''
+//  },
   {
     name: 'Wrapped ETC',
     symbol: 'ccETC',

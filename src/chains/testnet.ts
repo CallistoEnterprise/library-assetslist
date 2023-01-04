@@ -12,7 +12,7 @@ export const TESTNET_TOKENS: Asset[] = [
     audit: {
     isAudited: false,
   },
-    platforms: ['soy'],
+    platforms: ['hub','soy'],
     projectUrl: 'https://callisto.network/',
   },
   {

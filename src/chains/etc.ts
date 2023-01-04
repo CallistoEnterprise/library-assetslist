@@ -12,7 +12,7 @@ export const ETC_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['soy','bridge'],
+    platforms: ['hub','soy','bridge'],
     projectUrl: 'https://ethereumclassic.org/'
   },
   {

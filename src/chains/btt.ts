@@ -12,7 +12,7 @@ export const BTT_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['soy','bridge'],
+    platforms: ['hub','soy','bridge'],
     projectUrl: 'https://bt.io/'
   },
   {
