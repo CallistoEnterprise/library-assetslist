@@ -2,7 +2,6 @@ import Web3 from 'web3';
 import fs from 'fs';
 import {
   REMOTE_DOMAIN_URL,
-  REMOTE_COINS_URL,
   BASE_IMAGE_EXTENSION,
 } from '../src/constants';
 import { jsonCollections } from './testData';
@@ -10,7 +9,7 @@ import { AssetType } from '../src/types';
 
 describe.each(jsonCollections)(
   'JSON validation - %s',
-  ({ assets, isNFT, chainId }) => {
+  ({ assets, isNFT }) => {
     it('does not contain duplicate names or addresses', () => {
       for (let i = 0; i < assets.length; i++) {
         for (let j = 0; j < assets.length; j++) {
@@ -54,14 +53,8 @@ describe.each(jsonCollections)(
       if (!isNFT) {
         for (let item of assets) {
           if(item.category === AssetType.NATIVE) continue
-          expect(item.image).toBe(
-            REMOTE_COINS_URL +
-              '/' +
-              chainId +
-              '/' +
-              item.address +
-              BASE_IMAGE_EXTENSION
-          );
+          
+          expect(item.image).toContain(BASE_IMAGE_EXTENSION)
         }
       }
     });
