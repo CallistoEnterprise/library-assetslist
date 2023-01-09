@@ -479,4 +479,18 @@ export const MAINNET_NFTS: AssetNFT[] = [
     placeholderMedia: 'metadata/image_preview',
     placeholderContent: 'metadata/nft_content',
   },
+  {
+    name: 'CalloshaNFT',
+    collectionName: 'CalloshaNFT',
+    symbol: 'CLSH',
+    address: '0xB89fd29C048E974f9c3bc320c0b68651B434c159',
+    decimals: 0,
+    image: '',
+    category: AssetType.ERC721,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub'],
+    projectUrl: 'https://callosha.fun'
+  },
 ]
