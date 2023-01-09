@@ -12,7 +12,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://callisto.network/'
   },
   {
@@ -25,7 +25,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://callisto.network/'
   },
   {
@@ -38,7 +38,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://callisto.network/'
   },
   {
@@ -53,37 +53,37 @@ export const MAINNET_TOKENS: Asset[] = [
       reportUrl: 'https://callisto.network/bulls-usd-busdt-security-audit/',
       riskLevel: 'SAFE'
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
-//  {
-//    name: 'Wrapped BNB (ERC20)',
-//    symbol: 'ccBNB',
-//    address: '0xCC78D0A86B0c0a3b32DEBd773Ec815130F9527CF',
-//    decimals: 18,
-//    image: 'https://asset.callisto.network/images/coins/bnb.png',
-//    category: AssetType.ERC20,
-//    audit: {
-//      isAudited: true,
-//      reportUrl: 'https://callisto.network/binance-token-bnb-security-audit/',
-//      riskLevel: 'LOW'
-//    },
-//    platforms: ['hub','soy','bridge'],
-//    projectUrl: ''
-//  },
-//  {
-//    name: 'Wrapped ETH (ERC20)',
-//    symbol: 'ccETH',
-//    address: '0xcC00860947035a26Ffe24EcB1301ffAd3a89f910',
-//    decimals: 18,
-//    image: 'https://asset.callisto.network/images/coins/eth.png',
-//    category: AssetType.ERC20,
-//    audit: {
-//      isAudited: false,
-//   },
-//    platforms: ['hub','soy','bridge'],
-//    projectUrl: ''
-//  },
+  //  {
+  //    name: 'Wrapped BNB (ERC20)',
+  //    symbol: 'ccBNB',
+  //    address: '0xCC78D0A86B0c0a3b32DEBd773Ec815130F9527CF',
+  //    decimals: 18,
+  //    image: 'https://asset.callisto.network/images/coins/bnb.png',
+  //    category: AssetType.ERC20,
+  //    audit: {
+  //      isAudited: true,
+  //      reportUrl: 'https://callisto.network/binance-token-bnb-security-audit/',
+  //      riskLevel: 'LOW'
+  //    },
+  //    platforms: ['hub','soy','bridge'],
+  //    projectUrl: ''
+  //  },
+  //  {
+  //    name: 'Wrapped ETH (ERC20)',
+  //    symbol: 'ccETH',
+  //    address: '0xcC00860947035a26Ffe24EcB1301ffAd3a89f910',
+  //    decimals: 18,
+  //    image: 'https://asset.callisto.network/images/coins/eth.png',
+  //    category: AssetType.ERC20,
+  //    audit: {
+  //      isAudited: false,
+  //   },
+  //    platforms: ['hub','soy','bridge'],
+  //    projectUrl: ''
+  //  },
   {
     name: 'Wrapped ETC',
     symbol: 'ccETC',
@@ -94,7 +94,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -109,7 +109,7 @@ export const MAINNET_TOKENS: Asset[] = [
       reportUrl: 'https://callisto.network/soy-finance-soy-security-audit/',
       riskLevel: 'LOW'
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://soy.finance/'
   },
   {
@@ -124,7 +124,7 @@ export const MAINNET_TOKENS: Asset[] = [
       reportUrl: 'https://callisto.network/binance-token-bnb-security-audit/',
       riskLevel: 'LOW'
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -137,7 +137,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://ethereum.org'
   },
   {
@@ -150,7 +150,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -165,7 +165,7 @@ export const MAINNET_TOKENS: Asset[] = [
       reportUrl: 'https://callisto.network/trust-wallet-token-security-audit-report/',
       riskLevel: 'LOW'
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -178,7 +178,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -191,7 +191,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -204,7 +204,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -219,7 +219,7 @@ export const MAINNET_TOKENS: Asset[] = [
       reportUrl: 'https://callisto.network/shiba-inu-token-security-audit-report/',
       riskLevel: 'LOW'
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -232,7 +232,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -247,7 +247,7 @@ export const MAINNET_TOKENS: Asset[] = [
       reportUrl: 'https://callisto.network/linear-token-security-audit-report/',
       riskLevel: 'LOW'
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -260,7 +260,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -273,7 +273,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -288,7 +288,7 @@ export const MAINNET_TOKENS: Asset[] = [
       reportUrl: 'https://callisto.network/fantom-token-security-audit-report/',
       riskLevel: 'LOW'
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -301,7 +301,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -314,7 +314,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -327,7 +327,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -335,12 +335,12 @@ export const MAINNET_TOKENS: Asset[] = [
     symbol: 'ccZOO',
     address: '0xCC9aFcE1e164fC2b381A3a104909e2D9E52cfB5D',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/820/zoo.png',
+    image: 'https://asset.callisto.network/images/coins/zoo.png',
     category: AssetType.ERC223,
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -353,7 +353,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -366,7 +366,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
 ]
@@ -405,8 +405,8 @@ export const MAINNET_NFTS: AssetNFT[] = [
     },
     platforms: ['hub'],
     projectUrl: 'https://nft.artefin.cz/',
-placeholderName
-  : 'metadata/name',
+    placeholderName
+      : 'metadata/name',
     placeholderTitle: 'metadata/edition',
     placeholderDescription: 'metadata/description',
     placeholderMedia: 'metadata/image_preview',
@@ -425,8 +425,8 @@ placeholderName
     },
     platforms: ['hub'],
     projectUrl: 'https://app.soy.finance/nft',
-placeholderName
-  : 'metadata/name',
+    placeholderName
+      : 'metadata/name',
     placeholderTitle: 'metadata/edition',
     placeholderDescription: 'metadata/description',
     placeholderMedia: 'metadata/image_preview',
@@ -443,7 +443,7 @@ placeholderName
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://power-c.ar/'
   },
   {
@@ -457,7 +457,7 @@ placeholderName
     audit: {
       isAudited: false,
     },
-    platforms: ['hub','soy','bridge'],
+    platforms: ['hub', 'soy', 'bridge'],
     projectUrl: ''
   },
   {
@@ -473,8 +473,7 @@ placeholderName
     },
     platforms: ['hub'],
     projectUrl: 'https://callistonians.me',
-placeholderName
-  : 'metadata/name',
+    placeholderName: 'metadata/name',
     placeholderTitle: 'metadata/edition',
     placeholderDescription: 'metadata/description',
     placeholderMedia: 'metadata/image_preview',
