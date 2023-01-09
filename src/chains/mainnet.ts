@@ -460,4 +460,24 @@ placeholderName
     platforms: ['hub','soy','bridge'],
     projectUrl: ''
   },
+  {
+    name: 'Callistonian X',
+    collectionName: 'Callistonian X',
+    symbol: 'X',
+    address: '0x9C02E4aEb4a29084553b5Fdc3B5f6DF72F11E104',
+    decimals: 0,
+    image: '',
+    category: AssetType.CALLISTONFT,
+    audit: {
+      isAudited: false,
+    },
+    platforms: ['hub'],
+    projectUrl: 'https://callistonians.me',
+placeholderName
+  : 'metadata/name',
+    placeholderTitle: 'metadata/edition',
+    placeholderDescription: 'metadata/description',
+    placeholderMedia: 'metadata/image_preview',
+    placeholderContent: 'metadata/nft_content',
+  },
 ]
