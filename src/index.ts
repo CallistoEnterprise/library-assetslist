@@ -1,13 +1,13 @@
 import { MAINNET_NFTS, MAINNET_TOKENS } from './chains/mainnet'
 import { TESTNET_NFTS, TESTNET_TOKENS } from './chains/testnet'
-import { Asset, AssetNFT, AssetType, ChainId, AssetSupportedChainId } from './types'
+import { Asset, AssetNFT, AssetType, ChainId, AssetSupportedChainId, AssetAudit } from './types'
 
-const TOKENLIST: { [key in AssetSupportedChainId]: Asset[]} = {
+const TOKENLIST: { [key in AssetSupportedChainId]: Asset[] } = {
   [ChainId.Mainnet]: MAINNET_TOKENS,
   [ChainId.Testnet]: TESTNET_TOKENS,
 }
 
-const NFTLIST: { [key in AssetSupportedChainId]: AssetNFT[]} = {
+const NFTLIST: { [key in AssetSupportedChainId]: AssetNFT[] } = {
   [ChainId.Mainnet]: MAINNET_NFTS,
   [ChainId.Testnet]: TESTNET_NFTS,
 }
@@ -19,7 +19,7 @@ const NFTLIST: { [key in AssetSupportedChainId]: AssetNFT[]} = {
  * @param chainId Chain ID out of AssetSupportedChainId enum
  * @returns Asset type, undefined if not found.
  */
-const getToken = (address:string, chainId = AssetSupportedChainId.Mainnet) => {
+const getToken = (address: string, chainId = AssetSupportedChainId.Mainnet) => {
   return TOKENLIST[chainId].find((entry) => entry.address.toLowerCase() === address.toLowerCase())
 };
 
@@ -30,8 +30,18 @@ const getToken = (address:string, chainId = AssetSupportedChainId.Mainnet) => {
  * @param chainId Chain ID out of AssetSupportedChainId enum
  * @returns AssetNFT type, undefined if not found.
  */
-const getNFT = (address:string, chainId = AssetSupportedChainId.Mainnet) => {
+const getNFT = (address: string, chainId = AssetSupportedChainId.Mainnet) => {
   return NFTLIST[chainId].find((entry) => entry.address.toLowerCase() === address.toLowerCase())
 };
 
-export { TOKENLIST, NFTLIST, getToken, getNFT, Asset, AssetNFT, AssetType, AssetSupportedChainId }
+export {
+  TOKENLIST as CallistoTokenList,
+  NFTLIST as CallistoNftList,
+  getToken as getCallistoToken,
+  getNFT as getCallistoNFT,
+  Asset as CallistoAsset,
+  AssetNFT as CallistoAssetNFT,
+  AssetType as CallistoAssetType,
+  AssetSupportedChainId as CallistoAssetSupportedChainId,
+  AssetAudit as CallistoAssetAudit
+}
