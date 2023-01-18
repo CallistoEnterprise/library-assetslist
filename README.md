@@ -10,11 +10,14 @@ This package contains multi chain asset lists with Tokens and NFTs
 
 1. Get Token or NFT asset list for each supported chain, e.g.
 ```ts
-import { CALLISTO_CHAIN_ID } from '@callisto-enterprise/chain-constants'
-import { TOKENLIST, NFTLIST } from '@callisto-enterprise/assetslist'
+import { TOKENLIST, NFTLIST, AssetSupportedChain, getNFT, getToken } from '@callisto-enterprise/assetslist'
 
-const mainnetTokens = TOKENLIST[CALLISTO_CHAIN_ID.Mainnet] //or just 820
-const mainnetNFTs = NFTLIST[CALLISTO_CHAIN_ID.Mainnet]
+const mainnetTokens = TOKENLIST[AssetSupportedChain.Mainnet] //or just 820
+const mainnetNFTs = NFTLIST[AssetSupportedChain.Mainnet]
+
+// Or find any specific asset by address
+const nft = getNFT('0x...',AssetSupportedChain.Mainnet)
+const token = getToken('0x...',AssetSupportedChain.Mainnet)
 ```
 
 Here is the structure of the Asset interface

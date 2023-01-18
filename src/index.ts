@@ -1,6 +1,6 @@
 import { MAINNET_NFTS, MAINNET_TOKENS } from './chains/mainnet'
 import { TESTNET_NFTS, TESTNET_TOKENS } from './chains/testnet'
-import { Asset, AssetNFT, AssetType, ChainId, AssetSupportedChainId } from './types'
+import { Asset, AssetNFT, AssetType, ChainId, AssetSupportedChainId, AssetAudit } from './types'
 
 const TOKENLIST: { [key in AssetSupportedChainId]: Asset[]} = {
   [ChainId.Mainnet]: MAINNET_TOKENS,
@@ -34,4 +34,4 @@ const getNFT = (address:string, chainId = AssetSupportedChainId.Mainnet) => {
   return NFTLIST[chainId].find((entry) => entry.address.toLowerCase() === address.toLowerCase())
 };
 
-export { TOKENLIST, NFTLIST, getToken, getNFT, Asset, AssetNFT, AssetType, AssetSupportedChainId }
+export { TOKENLIST, NFTLIST, getToken, getNFT, Asset, AssetNFT, AssetType, AssetSupportedChainId, AssetAudit }
