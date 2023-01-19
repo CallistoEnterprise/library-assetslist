@@ -13,7 +13,7 @@ export const TESTNET_TOKENS: Asset[] = [
     isAudited: false,
   },
     platforms: ['hub','soy'],
-    projectUrl: 'https://callisto.network/',
+    projectUrl: 'https://callisto.network/'
   },
   {
     name: 'Wrapped TCLO',
@@ -26,7 +26,7 @@ export const TESTNET_TOKENS: Asset[] = [
       isAudited: true,
     },
     platforms: ['hub','soy'],
-    projectUrl: 'https://callisto.network/',
+    projectUrl: 'https://callisto.network/'
   },
 
   {
@@ -40,7 +40,7 @@ export const TESTNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub','soy'],
-    projectUrl: 'https://soy.finance/',
+    projectUrl: 'https://soy.finance/'
   },
   {
     name: 'Callisto Enterprise',
@@ -53,7 +53,7 @@ export const TESTNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub','soy'],
-    projectUrl: 'https://callisto.network/',
+    projectUrl: 'https://callisto.network/'
   },
   {
     name: 'Bulls USD',
@@ -66,7 +66,7 @@ export const TESTNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub','soy'],
-    projectUrl: '',
+    projectUrl: 'https://bullsinvesting.club/'
   },
   {
     name: 'Teramite token',
@@ -80,7 +80,6 @@ export const TESTNET_TOKENS: Asset[] = [
     },
     platforms: ['hub','soy'],
     projectUrl: '',
-  
   },
   {
     name: 'CatCoin',
@@ -93,8 +92,7 @@ export const TESTNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub','soy'],
-    projectUrl: '',
-  
+    projectUrl: ''
   },
   {
     name: 'DaeDalus',
@@ -107,8 +105,7 @@ export const TESTNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub','soy'],
-    projectUrl: '',
-  
+    projectUrl: ''
   },
   {
     name: 'Artemis',
@@ -121,8 +118,7 @@ export const TESTNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub','soy'],
-    projectUrl: '',
-  
+    projectUrl: ''
   },
   {
     name: 'MOON',
@@ -135,8 +131,7 @@ export const TESTNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub','soy'],
-    projectUrl: '',
-  
+    projectUrl: ''
   },
   {
     name: 'Fitter',
@@ -149,8 +144,7 @@ export const TESTNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub','soy'],
-    projectUrl: '',
-  
+    projectUrl: ''
   },
 ]
 

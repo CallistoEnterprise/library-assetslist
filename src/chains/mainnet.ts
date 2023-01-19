@@ -54,8 +54,9 @@ export const MAINNET_TOKENS: Asset[] = [
       riskLevel: 'SAFE'
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://bullsinvesting.club/'
   },
+  // Absolete ERC20 versions of tokens
   //  {
   //    name: 'Wrapped BNB (ERC20)',
   //    symbol: 'ccBNB',
@@ -95,7 +96,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://ethereumclassic.org/'
   },
   {
     name: 'Soy-ERC223',
@@ -125,7 +126,7 @@ export const MAINNET_TOKENS: Asset[] = [
       riskLevel: 'LOW'
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://binance.com/'
   },
   {
     name: 'Wrapped ETH(ERC223)',
@@ -151,7 +152,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://pancakeswap.finance/'
   },
   {
     name: 'Wrapped TWT',
@@ -166,7 +167,7 @@ export const MAINNET_TOKENS: Asset[] = [
       riskLevel: 'LOW'
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://trustwallet.com/'
   },
   {
     name: 'Wrapped WSG',
@@ -179,7 +180,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://wsg.gg/'
   },
   {
     name: 'Wrapped REEF',
@@ -192,7 +193,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://reef.io/'
   },
   {
     name: 'Wrapped BAKE',
@@ -205,7 +206,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://www.bakeryswap.org/'
   },
   {
     name: 'Wrapped SHIB',
@@ -220,7 +221,7 @@ export const MAINNET_TOKENS: Asset[] = [
       riskLevel: 'LOW'
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://shibatoken.com/'
   },
   {
     name: 'Wrapped RACA',
@@ -233,7 +234,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://www.raca3.com/'
   },
   {
     name: 'Wrapped LINA',
@@ -248,7 +249,7 @@ export const MAINNET_TOKENS: Asset[] = [
       riskLevel: 'LOW'
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://linear.finance/'
   },
   {
     name: 'Wrapped TON',
@@ -261,7 +262,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://ton.org/'
   },
   {
     name: 'Wrapped XMS',
@@ -274,7 +275,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://marsecosystem.com/'
   },
   {
     name: 'Wrapped FTM',
@@ -289,7 +290,7 @@ export const MAINNET_TOKENS: Asset[] = [
       riskLevel: 'LOW'
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'http://fantom.foundation/'
   },
   {
     name: 'Wrapped BTT',
@@ -302,7 +303,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://bt.io/'
   },
   {
     name: 'Wrapped BBT',
@@ -315,7 +316,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://bitbook.net/'
   },
   {
     name: 'Wrapped ANTEX',
@@ -328,7 +329,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://antex.org/'
   },
   {
     name: 'Wrapped ZOO',
@@ -341,7 +342,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://zoogame.finance/'
   },
   {
     name: 'Wrapped BCOIN',
@@ -354,7 +355,7 @@ export const MAINNET_TOKENS: Asset[] = [
       isAudited: false,
     },
     platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    projectUrl: 'https://bombcrypto.io/'
   },
   {
     name: 'VIPSVERSE Token',
@@ -364,10 +365,12 @@ export const MAINNET_TOKENS: Asset[] = [
     image: 'https://asset.callisto.network/images/coins/vvt.png',
     category: AssetType.ERC223,
     audit: {
-      isAudited: false,
+      isAudited: true,
+      reportUrl: 'https://github.com/EthereumCommonwealth/Auditing/issues/659',
+      riskLevel: 'LOW'
     },
-    platforms: ['hub', 'soy', 'bridge'],
-    projectUrl: ''
+    platforms: ['hub', 'soy'],
+    projectUrl: 'https://warz.vip/'
   },
 ]
 
