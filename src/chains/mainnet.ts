@@ -55,7 +55,6 @@ export const MAINNET_TOKENS: Asset[] = [
     },
     platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://bullsinvesting.club/'
-    '
   },
   // Absolete ERC20 versions of tokens
   //  {
