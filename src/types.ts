@@ -4,12 +4,9 @@ export enum ChainId {
   BTT = 199,
   BSC = 56,
   ETC = 61,
+  ETH = 1,
 }
 
-export enum AssetSupportedChainId {
-  Mainnet = 820,
-  Testnet = 20729,
-}
 
 export enum AssetType {
   NATIVE = 0,
