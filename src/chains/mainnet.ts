@@ -1,4 +1,4 @@
-import type { Asset, AssetNFT } from '../types'
+import { Asset, AssetNFT, AuditRiskLevel } from '../types'
 import { AssetType } from '../types'
 
 export const MAINNET_TOKENS: Asset[] = [
@@ -51,7 +51,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/bulls-usd-busdt-security-audit/',
-      riskLevel: 'SAFE'
+      riskLevel: AuditRiskLevel.Safe
     },
     platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://bullsinvesting.club/'
@@ -67,7 +67,7 @@ export const MAINNET_TOKENS: Asset[] = [
   //    audit: {
   //      isAudited: true,
   //      reportUrl: 'https://callisto.network/binance-token-bnb-security-audit/',
-  //      riskLevel: 'LOW'
+  //      riskLevel: AuditRiskLevel.Low
   //    },
   //    platforms: ['hub','soy','bridge'],
   //    projectUrl: ''
@@ -108,7 +108,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/soy-finance-soy-security-audit/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://soy.finance/'
@@ -123,7 +123,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/binance-token-bnb-security-audit/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://binance.com/'
@@ -164,7 +164,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/trust-wallet-token-security-audit-report/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://trustwallet.com/'
@@ -218,7 +218,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/shiba-inu-token-security-audit-report/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://shibatoken.com/'
@@ -246,7 +246,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/linear-token-security-audit-report/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'https://linear.finance/'
@@ -287,7 +287,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/fantom-token-security-audit-report/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['hub', 'soy', 'bridge'],
     projectUrl: 'http://fantom.foundation/'
@@ -367,7 +367,7 @@ export const MAINNET_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://github.com/EthereumCommonwealth/Auditing/issues/659',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['hub', 'soy'],
     projectUrl: 'https://warz.vip/'

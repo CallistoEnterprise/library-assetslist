@@ -1,4 +1,4 @@
-import type { Asset, AssetNFT } from '../types'
+import { Asset, AssetNFT, AuditRiskLevel } from '../types'
 import { AssetType } from '../types'
 
 export const BSC_TOKENS: Asset[] = [
@@ -78,7 +78,7 @@ export const BSC_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/trust-wallet-token-security-audit-report/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['bridge'],
     projectUrl: 'https://trustwallet.com/'
@@ -145,7 +145,7 @@ export const BSC_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/linear-token-security-audit-report/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['bridge'],
     projectUrl: 'https://linear.finance/'
