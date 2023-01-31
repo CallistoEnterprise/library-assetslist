@@ -17,6 +17,14 @@ export enum AssetType {
   CALLISTONFT = 1,
 }
 
+export enum AuditRiskLevel {
+  Safe = 'SAFE',
+  Low = 'LOW',
+  Medium = 'MED',
+  High = 'HIGH',
+  Critical = 'CRITICAL'
+}
+
 export interface Asset {
   address: string
   category: AssetType
@@ -43,5 +51,5 @@ export interface AssetNFT extends Asset {
 export interface AssetAudit {
   isAudited: boolean
   reportUrl?: string
-  riskLevel?: string
+  riskLevel?: AuditRiskLevel
 }

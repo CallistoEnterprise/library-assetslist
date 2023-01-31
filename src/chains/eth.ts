@@ -1,4 +1,4 @@
-import type { Asset, AssetNFT } from '../types'
+import { Asset, AssetNFT, AuditRiskLevel } from '../types'
 import { AssetType } from '../types'
 
 export const ETH_TOKENS: Asset[] = [
@@ -51,7 +51,7 @@ export const ETH_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/fantom-token-security-audit-report/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['bridge'],
     projectUrl: 'http://fantom.foundation/'
@@ -66,7 +66,7 @@ export const ETH_TOKENS: Asset[] = [
     audit: {
       isAudited: true,
       reportUrl: 'https://callisto.network/shiba-inu-token-security-audit-report/',
-      riskLevel: 'LOW'
+      riskLevel: AuditRiskLevel.Low
     },
     platforms: ['bridge'],
     projectUrl: 'https://shibatoken.com/'

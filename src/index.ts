@@ -5,6 +5,7 @@ import { ETH_NFTS, ETH_TOKENS } from './chains/eth'
 import { MAINNET_NFTS, MAINNET_TOKENS } from './chains/mainnet'
 import { TESTNET_NFTS, TESTNET_TOKENS } from './chains/testnet'
 import { Asset, AssetNFT, AssetType, ChainId, AssetAudit } from './types'
+import { getRiskLevelDescription, getRiskLevelColor } from './utils'
 
 const TOKENLIST: { [key in ChainId]: Asset[] } = {
   [ChainId.Mainnet]: MAINNET_TOKENS,
@@ -51,9 +52,11 @@ export {
   NFTLIST as CallistoNftList,
   getToken as getCallistoToken,
   getNFT as getCallistoNFT,
+  getRiskLevelDescription as getCallistoRiskLevelDescription,
+  getRiskLevelColor as getCallistoRiskLevelColor,
   Asset as CallistoAsset,
   AssetNFT as CallistoAssetNFT,
   AssetType as CallistoAssetType,
   ChainId as CallistoAssetChainId,
-  AssetAudit as CallistoAssetAudit
+  AssetAudit as CallistoAssetAudit,
 }
