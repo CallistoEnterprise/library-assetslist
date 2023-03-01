@@ -43,17 +43,17 @@ export const BSC_TOKENS: Asset[] = [
     projectUrl: 'https://callisto.network/'
   },
   {
-    name: 'Bulls USD',
-    symbol: 'BUSDT',
+    name: 'Tether',
+    symbol: 'USDT',
     address: '0x55d398326f99059fF775485246999027B3197955',
     decimals: 18,
-    image: 'https://asset.callisto.network/images/coins/busdt.png',
+    image: 'https://asset.callisto.network/images/coins/usdt.png',
     category: AssetType.ERC20,
     audit: {
       isAudited: false,
     },
     platforms: ['bridge'],
-    projectUrl: 'https://bullsinvesting.club/'
+    projectUrl: 'https://tether.to/'
   },
   {
     name: 'Wrapped CAKE',
