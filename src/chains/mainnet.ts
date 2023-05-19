@@ -358,6 +358,19 @@ export const MAINNET_TOKENS: Asset[] = [
     projectUrl: 'https://bombcrypto.io/'
   },
   {
+    name: 'Wrapped Dogecoin Token',
+    symbol: 'ccDOGE',
+    address: '0xcc68a5a0fe33fe74a24955717989ea094e6c2b9f',
+    decimals: 8,
+    image: 'https://asset.callisto.network/images/coins/doge.png',
+    category: AssetType.ERC223,
+    audit: {
+      isAudited: true,
+    },
+    platforms: ['hub', 'soy', 'bridge'],
+    projectUrl: 'https://dogecoin.com/'
+  },
+  {
     name: 'VIPSVERSE Token',
     symbol: 'VVT',
     address: '0x9f9b6DD3DEDB4D2e6C679bCb8782f546400e9A53',
